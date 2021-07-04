@@ -1,15 +1,16 @@
 .wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     /* Main Axis */
     justify-content: space-around;
     /* Cross Axis */
-    align-items: center;
+    align-items: stretch;
     height: 100vh;
 }
 .box{
-    width: 200px;
+    /* width: 200px; */
     height: 200px;
     background:turquoise;
     color: black;
+    flex-grow: 1;
 }
