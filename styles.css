@@ -1,8 +1,9 @@
 .father {
     display: flex;
+    flex-direction : row-reverse;
     justify-content: space-around;
     height: 100vh;
-    flex-wrap:wrap;
+    flex-wrap:wrap-reverse;
 }
 .child{
     width:200px;
