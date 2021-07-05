@@ -1,9 +1,9 @@
 .father {
     display: flex;
-    flex-direction : row-reverse;
     justify-content: space-around;
     height: 100vh;
-    flex-wrap:wrap-reverse;
+    flex-wrap: wrap;
+    align-content: center;
 }
 .child{
     width:200px;
