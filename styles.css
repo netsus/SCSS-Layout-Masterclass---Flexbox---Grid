@@ -7,23 +7,16 @@ body {
     background: black;
     display: grid;
     gap : 5px;
-    height : 150vh;
+  
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(4, 1fr);
-    /* justify-content: space-evenly;
-    align-content: stretch; */
-    place-content : stretch space-evenly ;
+    grid-template-rows: repeat(4, 100px);
+    grid-auto-rows: 300px;
   }
 
-  .header {
+  .item:nth-child(odd){
     background-color: #2ecc71;
   }
-  .content {
-    background-color: #3498db;
-  }
-  .nav {
-    background-color: #8e44ad;
-  }
-  .footer {
-    background-color: #f39c12;
+
+  .item:nth-child(even){
+    background-color: #3498db ;
   }
