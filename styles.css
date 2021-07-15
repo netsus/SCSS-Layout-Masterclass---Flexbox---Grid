@@ -7,7 +7,8 @@ body {
   display: grid;
   color: white;
   gap: 5px;
-  grid-auto-rows: 100px;
+  grid-template-columns: max-content min-content;
+  margin-bottom: 30px;
 }
 
 .item:nth-child(odd) {
@@ -16,12 +17,4 @@ body {
 
 .item:nth-child(even) {
   background-color: #3498db;
-}
-
-.grid:first-child {
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-}
-
-.grid:last-child {
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
