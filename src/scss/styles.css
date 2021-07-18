@@ -1,25 +1,16 @@
-h2 {
-  color: #e7473c;
+a {
+  margin-bottom: 10px;
 }
 
-.box {
-  margin-top: 20px;
-  border: 1px solid black;
-}
-
-.box:hover {
-  background-color: teal;
-}
-
-.box h2 {
+a:nth-child(odd) {
+  text-decoration: none;
+  display: block;
   color: blue;
 }
 
-.box h2:hover {
-  color: red;
-}
-
-.box button {
+a:nth-child(even) {
+  text-decoration: none;
+  display: block;
   color: red;
 }
 /*# sourceMappingURL=styles.css.map */
