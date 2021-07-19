@@ -1,19 +1,22 @@
-a, button {
-  font-family: inherit;
-  border-radius: 7px;
-  font-size: 12px;
-  text-transform: uppercase;
-  padding: 5px 10px;
-  background-color: skyblue;
-  color: white;
-  font-weight: 500;
+h1 {
+  color: red;
 }
 
-a {
-  text-decoration: none;
+@media screen and (min-width: 250px) and (max-width: 700px) {
+  h1 {
+    color: yellow;
+  }
 }
 
-button {
-  border: none;
+@media screen and (min-width: 250px) and (max-width: 700px) and (orientation: landscape) {
+  h1 {
+    color: orange;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1120px) {
+  h1 {
+    color: green;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
